@@ -7,8 +7,11 @@
 - Install **Live Sass Compiler** extension (VS Code).
 - Install **Live Server** extension (VS Code).
 
-- Configure **Live Sass Compiler** settings
+### 1. Configure
+
+- Configure **Live Sass Compiler** settings: 
   Update your Live Sass Compiler: Settings with the following configuration:
+{
 
 {
     "diffEditor.hideUnchangedRegions.enabled": true,
@@ -29,3 +32,4 @@
     
 }
 
+}
