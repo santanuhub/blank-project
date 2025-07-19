@@ -7,7 +7,7 @@
 - Install **Live Sass Compiler** extension (VS Code).
 - Install **Live Server** extension (VS Code).
 
-### 1. Configure
+### 2. Configure
 
 - Configure **Live Sass Compiler** settings: 
   Update your Live Sass Compiler: Settings with the following configuration:
