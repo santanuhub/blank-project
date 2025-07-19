@@ -11,7 +11,7 @@
 
 - Configure **Live Sass Compiler** settings: 
   Update your Live Sass Compiler: Settings with the following configuration:
-{
+<pre>
 
 {
     "diffEditor.hideUnchangedRegions.enabled": true,
@@ -32,4 +32,4 @@
     
 }
 
-}
+</pre>
