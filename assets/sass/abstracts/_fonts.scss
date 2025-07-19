@@ -8,11 +8,6 @@
 $font-family--body: 'Inter', sans-serif;
 $font-family--title: 'Inter', sans-serif;
 
-//------------------------------------ body font setup
-body {
-  font-family: $font-family--body;
-}
-
 //------------------------------------ font-size--p
 @mixin font-size--p {
   font-family: $font-family--body;
@@ -23,8 +18,16 @@ body {
 .font-size--p {
 	@include font-size--p;
 }
+
+//------------------------------------ body font setup
+body {
+  font-family: $font-family--body;
+  @include font-size--p;
+}
+
 //------------------------------------ paragraph spacing
 p{
+  @include font-size--p;
   margin-top:15px;
   &:first-child {
     margin-bottom: 0 !important;

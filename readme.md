@@ -7,5 +7,25 @@
 - Install **Live Sass Compiler** extension (VS Code).
 - Install **Live Server** extension (VS Code).
 
+- Configure **Live Sass Compiler** settings
+  Update your Live Sass Compiler: Settings with the following configuration:
 
+{
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "settingsSync.ignoredExtensions": [],
+    "liveSassCompile.settings.useNewCompiler": false,
+
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": true
+    
+}
 
