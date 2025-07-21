@@ -10,7 +10,7 @@
 ### 2. Configure
 
 - Configure **Live Sass Compiler** settings: 
-  Update your Live Sass Compiler: Settings with the following configuration:
+  Update your Live Sass Compiler Settings with the following configuration:
 <pre>
 
 {
@@ -18,13 +18,20 @@
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
-    "settingsSync.ignoredExtensions": [],
+    "settingsSync.ignoredExtensions": [
+    
+    ],
     "liveSassCompile.settings.useNewCompiler": false,
 
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
             "extensionName": ".css",
+            "savePath": "/assets/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
             "savePath": "/assets/css"
         }
     ],
